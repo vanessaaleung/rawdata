@@ -1,16 +1,39 @@
 {
-  "nodes": [
-    {"id": "John"},
-    {"id": "Marcus"},
-    {"id": "Jane"},
-    {"id": "Clara"},
-    {"id": "Nice"}
-  ],
-  "links": [
-    {"source": "John", "target": "Marcus"},
-    {"source": "John", "target": "Jane"},
-    {"source": "John", "target": "Nice"},
-    {"source": "Marcus", "target": "Clara"},
-    {"source": "John", "target": "Clara"}
+  "name": "USA",
+  "children":[
+    {
+      "name": "New York",
+      "children": [
+        {
+          "name":"Albany",
+          "sales": 5000
+        },
+        {
+          "name":"New York",
+          "sales": 15000
+        },
+        {
+          "name":"Buffalo",
+          "sales": 10000
+        }
+      ]
+    },
+    {
+      "name": "California",
+      "children": [
+        {
+          "name":"Los Angeles",
+          "sales": 2000
+        },
+        {
+          "name":"San Francisco",
+          "sales": 7000
+        },
+        {
+          "name":"San Diego",
+          "sales": 8000
+        }
+      ]
+    }
   ]
 }
