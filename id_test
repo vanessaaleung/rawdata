@@ -1,0 +1,20 @@
+{"nodes":
+[
+  {
+    "id": "DONALD J. TRUMP",
+    "img": "https://www.whitehouse.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg"
+  },
+  {
+    "id": "CARTER PAGE",
+    "img": "https://www.whitehouse.gov/wp-content/uploads/2017/11/President-Trump-Official-Portrait.jpg"
+  }
+],
+"links":
+[
+  {
+    "source": "CARTER PAGE",
+    "target": "DONALD J. TRUMP",
+    "Connection": "Foreign policy adviser"
+  }
+]
+}
